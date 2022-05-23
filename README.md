@@ -10,6 +10,6 @@ A simple html page with instructions for using the SDA system
 - user manual
 - technical manual
 
-### MORE...
+### MORE
 
 :construction:

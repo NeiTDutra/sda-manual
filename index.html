@@ -12,8 +12,13 @@
 </head>
 <body>
     <header>
-        <div class="text-center">
-            <h1>SDA - Manual</h1>
+        <div class="row">
+            <div class="col-sm-1">
+                <img src="./images/sdalogo.png" alt="Logotipo SDA SYS" width="50px" class="m-1">
+            </div>
+            <div class="col-sm-11">
+                <h1 class="mt-1">SDA - Manual</h1>
+            </div>
         </div>
     </header>
     <main class="m-3">
@@ -44,13 +49,40 @@
                     </ul>
                 </nav>
             </div>
-            <div class="col-md-10 p-3 ml-5 mr-5" id="content">
+            <div class="col-md-8 p-3 ml-5 mr-5" id="content">
                 <h2>MANUAL DE USO</h2>
                 <hr>
                 <section class="pl-5" id="geralUso">
                     <h3>Geral</h3>
-                    <p><b class="text-danger">🚧 Este manual está em desenvolvimento 🚧 </b></p>
+                    <p>
+                        O <strong>Sistema Despachante de Armas (SDA)</strong> é um sistema web para gerenciar clientes, usuários, departamentos e funcionários de departamentos,
+                        protocolos e documentos em PDF relacionados.
+                    </p>
+                    <p>
+                        É um sistema para ser usado em escritórios despachantes de armas para auxiliar no processo de manipulação
+                        de grande volume de documentos rotativos.
+                    </p>
+                    <p>
+                        Com os formulários do <strong>SDA - SYS</strong> é possível:
+                        <ul>
+                            <li><strong>Criar, editar, anexar arquivos PDF, imprimir e excluir</strong> protocolos;</li>
+                            <li><strong>Criar, editar, anexar arquivos PDF e excluir</strong> clientes;</li>
+                            <li><strong>Criar, editar e excluir</strong> utilizadores;</li>
+                            <li><strong>Criar e excluir</strong> campos de documentos;</li>
+                            <li><strong>Criar e excluir</strong> departamentos;</li>
+                            <li><strong>Criar e excluir</strong> funcionários;</li>
+                        </ul>
+                    </p>
+                    <p>
+                        Este manual auxilia com detalhes, a entender como utilizar o <strong>Sistema Despachante de Armas</strong>.
+                    </p>
+                    <p>
+                        Qualquer dúvida, sugestão ou crítica restante após a leitura do manual ou uso do <strong>SDA - SYS</strong>, 
+                        utilize o <a href="#contato">formulário de contato direto com o time de desenvolvimento do sistema.</a>
+                    </p>
                 </section>
+                <br>
+                <hr>
                 <section class="pl-5" id="login">
                     <h3>Login</h3>
                     <p><b class="text-danger">🚧 Este manual está em desenvolvimento 🚧 </b></p>
@@ -104,6 +136,38 @@
                 <section class="pl-5" id="arquivos">
                     <h3>Arquivos</h3>
                     <p><b class="text-danger">🚧 Este manual está em desenvolvimento 🚧 </b></p>
+                </section>
+                <br>
+                <hr>
+                <section class="pl-5" id="contato">
+                    <h3>Contato</h3>
+                    <p>
+                        Utilize os campos abaixo para enviar um email aos desenvolvedores do sistema.
+                    </p>
+                    <p>
+                        Dúvidas, sugestões e críticas são bem vindas.
+                    </p>
+                    <br>
+                    <form id="form-contact">
+                        <div class="form-group">
+                          <label for="name">Nome</label>
+                          <input type="text" name="contact-name" class="form-control" id="name" placeholder="Nome Sobrenome" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="email">E-mail</label>
+                          <input type="email" name="contact-email" class="form-control" id="email" placeholder="namemail@mail.com" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="title">Título</label>
+                          <input type="text" name="contact-title" class="form-control" id="title" placeholder="Título da Mensagem" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="message">Mensagem</label>
+                          <textarea name="contact-message" class="form-control" id="message" rows="3" placeholder="Dúvida, sugestão ou crítica..." required></textarea>
+                        </div>
+                        <hr>
+                        <button class="btn btn-primary">Enviar</button>
+                      </form>
                 </section>
             </div>
         </div>
