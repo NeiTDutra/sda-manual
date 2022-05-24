@@ -5,5 +5,5 @@ $('nav a').click(function(e){
         headerHeight = $('header').innerHeight() + 45;
     $('html, body').animate({
         scrollTop: targetOffset - headerHeight
-    }, 500)
+    }, 1000)
 });
