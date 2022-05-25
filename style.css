@@ -19,12 +19,15 @@ nav {
     margin-top: 5%;
     position: fixed;
     background-color: gainsboro;
+    box-shadow: 0.5em 0.5em 0.5em gray;
 }
 
 header {
     position: fixed;
-    width: 100%;
+    width: 95%;
     background-color: gainsboro;
+    box-shadow: 0.5em 0.5em 0.5em gray;
+    margin-left: 2%;
 }
 
 #content {
