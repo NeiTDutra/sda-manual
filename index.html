@@ -39,6 +39,7 @@
                         <li><a href="#campos">Campos</a></li>
                         <li><a href="#funcionarios">Funcionários</a></li>
                         <li><a href="#utilizadores">Utilizadores</a></li>
+                        <li><a href="#restritas">Funções Restritas</a></li>
                     </ul>
                     <h3>Manual Técnico</h3>
                     <ul>
@@ -93,9 +94,12 @@
                         Logo que abre o site do sistema a primeira página é a de login (fig.1), não sendo possível acessar os recursos 
                         sem ter utilizador e senha cadastrados. O cadastro de novos utilizadores é registrado apenas por administradores.
                     </p>
-                    <p>
-                        Até esta versão, existem dois níveis de utilizadores: ADMINISTRADORES E NÃO ADMINISTRADORES.
-                    </p>
+                    <div class="bg-info p-2">
+                        <p>
+                            Até esta versão, existem dois níveis de utilizadores: ADMINISTRADORES E NÃO ADMINISTRADORES.
+                        </p>
+                    </div>
+                    
                     <br>
                     <figure>
                         <img src="./images/man-login.png" alt="Página de login" class="man-image">
@@ -117,16 +121,17 @@
                         <img src="./images/man-login2.png" alt="Página de recursos" class="man-image">
                         <figcaption>(fig.3) Página inicial dos recursos do sistema SDA-SYS</figcaption>
                     </figure>
-                    <p>
-                        *Mais informações sobre cadastro de utilizadores <a href="#cad-util">aqui</a>.
-                    </p>
+                    <div class="bg-info p-2">
+                        <p>
+                            Mais informações sobre cadastro de utilizadores <a href="#cad-util">aqui</a>.
+                        </p>
+                    </div>
                     <br>
                     <hr>
                 </section>
                 <!--NAVEGAÇÃO-->
                 <section class="pl-5" id="navegacao">
                     <h3>Navegação</h3>
-                    <p><b class="text-danger">🚧 Este manual está em desenvolvimento 🚧 </b></p>
                     <P>
                         O <strong>Sistema Despachante de Armas (SDA)</strong> possui um menu fixo para navegar 
                         entre os recursos. (fig.4)
@@ -185,11 +190,168 @@
                         <img src="./images/man-nav9.png" alt="Página de recursos / contato" class="man-image">
                         <figcaption>(fig.13) Link para contato com os desenvolvedores/administradores</figcaption>
                     </figure>
+                    <br>
+                    <hr>
                 </section>
                 <!--PROTOCOLOS-->
                 <section class="pl-5" id="protocolos">
                     <h3>Protocolos</h3>
-                    <p><b class="text-danger">🚧 Este manual está em desenvolvimento 🚧 </b></p>
+                    <p>A página de <strong>protocolos</strong> do SDA contém todos recursos para:</p>
+                        <ul>
+                            <a href="#prot-create"><li>Criar protocolos</li></a>
+                            <a href="#prot-view"><li>Visualizar protocolos</li></a>
+                            <a href="#prot-press"><li>Imprimir protocolos</li></a>
+                            <a href="#prot-edit"><li>Editar protocolos</li></a>
+                            <a href="#prot-delete"><li>Excluir protocolos</li></a>
+                        </ul>
+                    <br>
+                    <h4 id="prot-create">Criar Protocolo</h4>
+                    <br>
+                    <div class="bg-info p-2">
+                        <p>Existem campos no formulário de protocolos que são do tipo selecionar, que são:</p>
+                        <ul>
+                            <li><b>Campo Origem</b> - Departamentos e Funcionários;</li>
+                            <li><b>Campo Destino</b> - Departamentos e Funcionários;</li>
+                            <li><b>Campos Ad. Itens(Documentos)</b> - Ítens;</li>
+                            <li><b>Campo Cliente</b> - Clientes;</li>
+                        </ul>
+                        <p>Estes ítens devem ser inseridos primeiramente antes de gerar qualquer protocolo.</p>
+                    </div>
+                    <br>
+                    <p>Para criar protocolo:</p>
+                    <ol>
+                        <li>
+                            Na parte superior clicar em <span class="text-success">"<b>Novo Protocolo +</b>"</span>.(fig.14)
+                            <br>
+                            <br>
+                            <figure>
+                                <img src="./images/man-prot.png" alt="Página de protocolos / lista de protocolos" class="man-image">
+                                <figcaption>(fig.14) Link para abrir formulário para criar novo protocolo</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            O formulário para novo protocolo carregará na tela.(fig.15)
+                            <br>
+                            <br>
+                            <figure>
+                                <img src="./images/man-prot1.png" alt="Página de protocolos / novo protocolo" class="man-image">
+                                <figcaption>(fig.15) Formulário para criar novo protocolo</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            Após preecher, na parte inferior da página estão os botões de ação: <b>Salvar e Cancelar</b>.(fig.16)
+                            <br>
+                            <br>
+                            <figure>
+                                <img src="./images/man-prot2.png" alt="Página de protocolos / novo protocolo / Salvar, Cancelar" class="man-image">
+                                <figcaption>(fig.16) Formulário para criar novo protocolo / Salvar, Cancelar</figcaption>
+                            </figure>
+                        </li>
+                    </ol>
+                    <br>
+                    <h4 id="prot-view">Visualizar Protocolo</h4>
+                    <p>Para visualizar protocolo:</p>
+                    <ol>
+                        <li>
+                            Na tela que lista todos protocolos, clicar na linha do protocolo que desejar visualizar.(fig.17)
+                            <br>
+                            <br>
+                            <figure>
+                                <img src="./images/man-prot3.png" alt="Página de protocolos / visualizar" class="man-image">
+                                <figcaption>(fig.17) Visualizar protocolo</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            Nesta tela também é possível pesquisar protocolos com filtro de pesquisa.(fig.18)
+                            <br>
+                            <br>
+                            <figure>
+                                <img src="./images/man-prot4.png" alt="Página de protocolos / visualizar com filtro" class="man-image">
+                                <figcaption>(fig.18) Pesquisar protocolo com filtro</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            Página de detalhes do protocolo.(fig.19)
+                            <br>
+                            <br>
+                            <figure>
+                                <img src="./images/man-prot5.png" alt="Página de protocolos / detalhes" class="man-image">
+                                <figcaption>(fig.19) Visão do protocolo em detalhes</figcaption>
+                            </figure>
+                            <br>
+                            <p>* Abaixo do protocolo detalhado estão os botões de ações para: imprimir, editar ou excluir protocolos.(fig.20)</p>
+                            <figure>
+                                <img src="./images/man-prot6.png" alt="Página de protocolos / detalhes" class="man-image">
+                                <figcaption>(fig.20) Visão do protocolo em detalhes (botões de ações)</figcaption>
+                            </figure>
+                        </li>
+                    </ol>
+                    <br>
+                    <h4 id="prot-press">Imprimir Protocolo</h4>
+                    <p>É possível imprimir somente o protocolo e também o protocolo incluindo todos arquivos PDF anexos.</p>
+                    <p>Para imprimir somente o protocolo:</p>
+                    <ol>
+                        <li>
+                            Clique no botão "Imprimir Somente Protocolo".(fig.21)
+                            <br>
+                            <br>
+                            <figure>
+                                <img src="./images/man-prot7.png" alt="Página de protocolos / impressão" class="man-image">
+                                <figcaption>(fig.21) Botão para imprimir somente o protocolo</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            A caixa de diálogo de impressão do navegador se abrirá com o protocolo a ser impresso.(fig.22)
+                            <br>
+                            <br>
+                            <figure>
+                                <img src="./images/man-prot8.png" alt="Página de protocolos / impressão" class="man-image">
+                                <figcaption>(fig.22) Caixa de impressão do navegador</figcaption>
+                            </figure>
+                            <br>
+                            <div class="bg-info p-2">
+                                <p>Nesta ação pode-se salvar em PDF ou imprimir diretamente na impressora.</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <br>
+                    <p>Para incluir todos anexos do protocolo na impressão basta clicar no botão "Imprimir Com Anexos".(fig.23)</p>
+                    <br>
+                    <figure>
+                        <img src="./images/man-prot9.png" alt="Página de protocolos / impressão" class="man-image">
+                        <figcaption>(fig.23) Botão imprimir com anexos</figcaption>
+                    </figure>
+                    <br>
+                    <h4 id="prot-edit">Editar Protocolos</h4>
+                    <p>A edição/modificação de protocolos utiliza o mesmo formulário de criação.</p>
+                    <p>Ao clicar no botão "Editar"(fig.24), o formulário abrirá com os campos preenchidos com os dados do formulário atual.(fig.25)</p>
+                    <br>
+                    <figure>
+                        <img src="./images/man-prot10.png" alt="Página de protocolos / edição" class="man-image">
+                        <figcaption>(fig.24) Botão Editar</figcaption>
+                    </figure>
+                    <br>
+                    <figure>
+                        <img src="./images/man-prot11.png" alt="Página de protocolos / edição" class="man-image">
+                        <figcaption>(fig.25) Formulário preenchido para editar</figcaption>
+                    </figure>
+                    <div class="bg-info p-2">
+                        <p>Salvar a edição segue o mesmo processo de salvar novo protocolo.</p>
+                    </div>
+                    <br>
+                    <h4 id="prot-delete">Excluir Protocolo</h4>
+                    <p>A exclusão de quaisquer itens no <b>Sistema Despachante de Armas</b> só pode ser efetuada por utilizadores administradores.</p>
+                    <p>Para excluir protocolo, clicar no botão "Excluir" na página de detalhes de protocolo.(fig.26)</p>
+                    <br>
+                    <figure>
+                        <img src="./images/man-prot12.png" alt="Página de protocolos / exclusão" class="man-image">
+                        <figcaption>(fig.26) Botão excluir protocolo</figcaption>
+                    </figure>
+                    <div class="bg-info p-2">
+                        <p>Para mais informações sobre exclusão de itens ver a seção <a href="#restritas"><b>"Funções restritas"</b></a> deste manual.</p>
+                    </div>
+                    <br>
+                    <hr>
                 </section>
                 <!--CLIENTES-->
                 <section class="pl-5" id="clientes">

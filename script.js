@@ -1,4 +1,4 @@
-$('nav a').click(function(e){
+$('nav a, #content a').click(function(e){
     e.preventDefault;
     var href = $(this).attr('href'),
         targetOffset = $(href).offset().top,
